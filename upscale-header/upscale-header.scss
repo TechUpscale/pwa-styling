@@ -35,6 +35,7 @@ a {
 
 			&-navbar {
 				display: block;
+				background-color: #9AC5E8;
 				
 			}
 		}
@@ -42,6 +43,7 @@ a {
 			display: flex;
 			height: $row-height;
 			align-items: center;
+			background-color: #9AC5E8;
 		}
 		&__hamburger {
 			@include button($background-color: #98c5ea);
