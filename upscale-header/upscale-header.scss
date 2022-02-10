@@ -13,9 +13,6 @@ $row-height: 54px;
 	min-height: $row-height;
 	z-index: 4;
 
-	.header__top-navbar{
-
-		background-color: #586675;
 	}
 	
 	.header {
@@ -29,7 +26,6 @@ $row-height: 54px;
 			&-navbar {
 				display: flex;
 				align-items: center;
-				@include a(background-color #586675);
 				}	 
 			}
 	
@@ -41,7 +37,7 @@ $row-height: 54px;
 
 			&-navbar {
 				display: block;
-				background-color: #9AC5E8;
+				background-color: #586675;
 				
 			}
 		}
@@ -49,10 +45,10 @@ $row-height: 54px;
 			display: flex;
 			height: $row-height;
 			align-items: center;
-			background-color: #9AC5E8;
+			background-color: #586675;
 		}
 		&__hamburger {
-			@include button($background-color: #98c5ea);
+			@include button($background-color: #586675);
 			box-sizing: border-box;
 			display: flex;
 			align-items: center;
