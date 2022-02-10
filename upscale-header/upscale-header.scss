@@ -15,6 +15,7 @@ $row-height: 54px;
 	
 	.header {
 		&__top {
+			@include a($background-color #586675)
 			display: flex;
 			width: 100%;
 			justify-content: space-between;
@@ -23,10 +24,9 @@ $row-height: 54px;
 			flex-shrink: 1;
 			&-navbar {
 				display: flex;
-				align-items: center;
-				 
+				align-items: center;	 
 			}
-			@include a(background-color #586675)
+	
 		}
 		&__bottom {
 			@include upscale-multiple(mobile, tablet) {
