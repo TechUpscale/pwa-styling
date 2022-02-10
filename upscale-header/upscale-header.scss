@@ -24,9 +24,9 @@ $row-height: 54px;
 			&-navbar {
 				display: flex;
 				align-items: center;
-				
 				 
 			}
+			@include a(background-color #586675)
 		}
 		&__bottom {
 			@include upscale-multiple(mobile, tablet) {
