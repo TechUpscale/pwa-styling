@@ -29,8 +29,7 @@ $row-height: 54px;
 			&-navbar {
 				display: flex;
 				align-items: center;
-				a.{
-					background-color: #586675;
+				@include a(background-color #586675);
 				}	 
 			}
 	
