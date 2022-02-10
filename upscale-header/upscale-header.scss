@@ -1,8 +1,8 @@
 @import '~styles/helpers/_module';
 
 $row-height: 54px;
- a {
-	background-color: #98c5ea !important;
+
+
 }
 :host {
 	position: sticky;
@@ -10,9 +10,11 @@ $row-height: 54px;
 	width: 100%;
 	display: block;
 	box-shadow: 0 7px 100vh 0 #00000029;
-	background: #9AC5E8;
+	background: #586675;
 	min-height: $row-height;
 	z-index: 4;
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+	
 	
 	.header {
 		&__top {
@@ -25,6 +27,7 @@ $row-height: 54px;
 			&-navbar {
 				display: flex;
 				align-items: center;
+				
 				 
 			}
 		}
