@@ -15,7 +15,6 @@ $row-height: 54px;
 	
 	.header {
 		&__top {
-			@include a($background-color #586675)
 			display: flex;
 			width: 100%;
 			justify-content: space-between;
