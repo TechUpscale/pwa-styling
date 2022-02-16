@@ -13,7 +13,7 @@ $row-height: 54px;
 	min-height: $row-height;
 	z-index: 4;
 
-	}
+	
 	
 	.header {
 		&__top {
@@ -29,7 +29,7 @@ $row-height: 54px;
 				}	 
 			}
 	
-		}
+		
 		&__bottom {
 			@include upscale-multiple(mobile, tablet) {
 				display: none;
@@ -77,3 +77,5 @@ $row-height: 54px;
 			@include clickable;
 		}
 	
+	}
+}	
